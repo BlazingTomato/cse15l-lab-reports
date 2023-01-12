@@ -40,7 +40,7 @@ Overall, my experience went like this
 
 ![image](https://user-images.githubusercontent.com/98483167/211944707-463eb42a-7190-418b-abbd-3ddf36ad4d20.png)
 
-##Step 3: Trying some Commands
+## Step 3: Trying some Commands
 Now that you're in your Remote Accounts, you can use some commands to snoop around your directory.
 
 What I did was use the command
