@@ -40,4 +40,20 @@ Overall, my experience went like this
 
 ![image](https://user-images.githubusercontent.com/98483167/211944707-463eb42a-7190-418b-abbd-3ddf36ad4d20.png)
 
+##Step 3: Trying some Commands
+Now that you're in your Remote Accounts, you can use some commands to snoop around your directory.
+
+What I did was use the command
+>cd ~
+>ls
+to first change my directory (cd) to the home folder (~), than list (ls) the files in that directory.
+
+This is what mine looked like
+
+![image](https://user-images.githubusercontent.com/98483167/211945294-c7590ef8-51b7-4376-9067-1a0225d7762a.png)
+
+If you're not sure what commands to use, [Here](https://www.lifewire.com/change-directories-in-command-prompt-5185508) is a basic guide on moving around directories for Window's Command Prompt.
+
+That should be all you need to get started on your remote account. And always ask someone for help if something goes wrong, rather than wasting time doing it by yourself ;).
+
 
