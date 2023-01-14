@@ -1,4 +1,4 @@
-# Getting into your Remote Access account of r CSE15L
+# Getting into your Remote Access account for CSE15L
 ## Step 1: Installing VSCode
 
 If you're using the lab computers, VScode should already be installed. Simply press Windows key, then search for VSCode as shown below.
