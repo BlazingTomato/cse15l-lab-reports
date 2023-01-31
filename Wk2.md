@@ -78,3 +78,45 @@ If nothing is added to the URL, only displayStrings() is called.
 This is an instance of a user adding "How are you" to the server, after "Hello" has been added. As you can see, Hello remains on the webpage, and How are you is printed after. This is because the ArrayList is only appended, and not reinitialized.
 
 
+##Part 2
+
+Here's an example of a input that does not induce a failure and a failure-inducing input for the same method.
+
+```
+@Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+
+    int[] input2 = {1,2,3};
+    assertArrayEquals(new int[]{3,2,1}, ArrayExamples.reversed(input2));
+  }
+ ```
+ 
+ This is the following symptom
+ 
+![image](https://user-images.githubusercontent.com/98483167/215683647-0b13c5d1-8c26-4d34-9e8b-8365d44eb9c0.png)
+
+The Bug inducing code is shown here
+
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+
+The bug is that the array is reversed to the halfway point, but then is simply recopied into the second half. Thus the input of an empty array will work, but an input of a populated array fails.
+
+The code-change is shown here.
+
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length / 2; i += 1) {
+      int temp = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = arr[i];
+      arr[i] = temp;
+    }
+  }
+ '''
+ 
