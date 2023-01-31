@@ -18,14 +18,18 @@ Now that you set a password for your CSE15L Remote account, open terminal in eit
 
 Since you have Git and Bash already initallized, you can use the command ssh, which stands for secure shell. Type the command below, and replace [Account Name] with your CSE15L account name (should look like this: cs15lwi23zz).
 
+'''
 > ssh [Account Name]@ieng6.ucsd.edu
+'''
 
 Now it will ask you 
 
-'''>ssh cs15lwi23zz@ieng6.ucsd.edu
+'''
+>ssh cs15lwi23zz@ieng6.ucsd.edu
 >The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 >RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 >Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+'''
 
 Type yes and press enter, then type your password.
 
