@@ -34,7 +34,9 @@ Type yes and press enter, then type your password.
 If nothing happens when you correctly type your password, use ctrl + c to get out of the command, and retry it. 
 
 Once it says
-```Hello [Your account name], you are currently logged into ieng6-203.ucsd.edu```
+```
+Hello [Your account name], you are currently logged into ieng6-203.ucsd.edu
+```
 
 you're good to go.
 
