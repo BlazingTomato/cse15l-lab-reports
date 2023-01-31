@@ -62,6 +62,33 @@ If you're not sure what commands to use, [Here](https://www.lifewire.com/change-
 
 That should be all you need to get started on your remote account. And always ask someone for help if something goes wrong, rather than wasting time doing it by yourself ;).
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Lab Report 2 - Servers and Bugs (Week 3)
 ## Part 1
 
