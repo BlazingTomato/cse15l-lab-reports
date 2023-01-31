@@ -121,6 +121,7 @@ The code-change is shown here.
   }
  ```
  
+ 
  ## Part 3
  
  The big thing I learned from week 2 and 3 is how to use JUnit tests to debug my code, and to look for failure-inducing inputs. Gone are the days of using System.out.println everywhere in my code, looking for a potential bug hidding behind the spagetti code. Now that I can use JUnit tests, not only can I easily use a lot of different inputs to test my code, fine-tuning and locating what and where the bug is has become so much easier for all my CS classes.
