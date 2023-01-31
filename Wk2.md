@@ -63,16 +63,15 @@ class StringServer {
 
 Here are some examples of adding a string to the server.
 
+
+
 ![image](https://user-images.githubusercontent.com/98483167/215677843-510df28b-83b8-486f-8a08-1e8c1b2eb623.png)
 
-This screenshot shows a user entering "Hello" into the server, and the webpage displaying it as so. It first calls the handleRequest(URI url) method with the given url. IT fids that the url contains /add, so it takes the parameters of the url and adds the string to the ArrayList strings.
-
-After it adds the string, the server calls displayString(), which outputs all the strings in the ArrayList.
+This screenshot shows a user entering "Hello" into the server, and the webpage displaying it as so. It first calls the handleRequest(URI url) method with the given url. IT fids that the url contains /add, so it takes the parameters of the url and adds the string to the ArrayList strings.After it adds the string, the server calls displayString(), which outputs all the strings in the ArrayList.
 
 None of the values in the URL gets changed, only the ArrayList is appended.
 
 If nothing is added to the URL, only displayStrings() is called.
-
 
 ![image](https://user-images.githubusercontent.com/98483167/215681015-e51d587b-7624-47f9-ace3-465cd77047dc.png)
 
