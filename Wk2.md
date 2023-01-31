@@ -119,7 +119,7 @@ The code-change is shown here.
       arr[i] = temp;
     }
   }
- '''
+ ```
  
  ## Part 3
  
