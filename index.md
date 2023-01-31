@@ -1,5 +1,5 @@
 # Lab Report 2 - Servers and Bugs (Week 3)
-## Part 1
+### Part 1
 
 This lab was to create a web server called StringServer that keeps track of strings added to the server.
 
@@ -78,7 +78,7 @@ If nothing is added to the URL, only displayStrings() is called.
 This is an instance of a user adding "How are you" to the server, after "Hello" has been added. As you can see, Hello remains on the webpage, and How are you is printed after. This is because the ArrayList is only appended, and not reinitialized.
 
 
-## Part 2
+### Part 2
 
 Here's an example of a input that does not induce a failure and a failure-inducing input for the same method.
 
@@ -123,6 +123,6 @@ The code-change is shown here.
  
  
 
-## Part 3
+### Part 3
  
  The big thing I learned from week 2 and 3 is how to use JUnit tests to debug my code, and to look for failure-inducing inputs. Gone are the days of using System.out.println everywhere in my code, looking for a potential bug hidding behind the spagetti code. Now that I can use JUnit tests, not only can I easily use a lot of different inputs to test my code, fine-tuning and locating what and where the bug is has become so much easier for all my CS classes.
