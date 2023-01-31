@@ -23,10 +23,10 @@ Since you have Git and Bash already initallized, you can use the command ssh, wh
 Now it will ask you 
 
 ```
->ssh cs15lwi23zz@ieng6.ucsd.edu
->The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
->RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
->Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+ssh cs15lwi23zz@ieng6.ucsd.edu
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 
 Type yes and press enter, then type your password.
