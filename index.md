@@ -19,7 +19,7 @@ Now that you set a password for your CSE15L Remote account, open terminal in eit
 Since you have Git and Bash already initallized, you can use the command ssh, which stands for secure shell. Type the command below, and replace [Account Name] with your CSE15L account name (should look like this: cs15lwi23zz).
 
 '''
-> ssh [Account Name]@ieng6.ucsd.edu
+ssh [Account Name]@ieng6.ucsd.edu
 '''
 
 Now it will ask you 
