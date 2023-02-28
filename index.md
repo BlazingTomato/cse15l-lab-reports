@@ -1,23 +1,97 @@
 # Lab Report 3 - Researching Commands
-### find - s
-## Example 1
+## find - s
+### Example 1
 ```
-find -s written_2 > find_sort_results.txt
+find -s written_2/ > find_sort_results.txt
 grep ".txt" find_sort_results.txt > grep-results-sort.txt
 ```
-## Example 2
 
-### Find -
-## Example 1
-## Example 2
+First 30 lines of find_sort_results.txt
+```
+written_2/
+written_2//non-fiction
+written_2//non-fiction/OUP
+written_2//non-fiction/OUP/Berk
+written_2//non-fiction/OUP/Berk/ch2.txt
+written_2//non-fiction/OUP/Berk/ch1.txt
+written_2//non-fiction/OUP/Berk/CH4.txt
+written_2//non-fiction/OUP/Berk/ch7.txt
+written_2//non-fiction/OUP/Abernathy
+written_2//non-fiction/OUP/Abernathy/ch2.txt
+written_2//non-fiction/OUP/Abernathy/ch3.txt
+written_2//non-fiction/OUP/Abernathy/ch1.txt
+written_2//non-fiction/OUP/Abernathy/ch7.txt
+written_2//non-fiction/OUP/Abernathy/ch6.txt
+written_2//non-fiction/OUP/Abernathy/ch8.txt
+written_2//non-fiction/OUP/Abernathy/ch9.txt
+written_2//non-fiction/OUP/Abernathy/ch15.txt
+written_2//non-fiction/OUP/Abernathy/ch14.txt
+written_2//non-fiction/OUP/Rybczynski
+written_2//non-fiction/OUP/Rybczynski/ch2.txt
+written_2//non-fiction/OUP/Rybczynski/ch3.txt
+written_2//non-fiction/OUP/Rybczynski/ch1.txt
+written_2//non-fiction/OUP/Kauffman
+written_2//non-fiction/OUP/Kauffman/ch3.txt
+written_2//non-fiction/OUP/Kauffman/ch1.txt
+written_2//non-fiction/OUP/Kauffman/ch4.txt
+written_2//non-fiction/OUP/Kauffman/ch5.txt
+written_2//non-fiction/OUP/Kauffman/ch7.txt
+written_2//non-fiction/OUP/Kauffman/ch6.txt
+written_2//non-fiction/OUP/Kauffman/ch8.txt
+```
 
-### Find -
-## Example 1
-## Example 2
+First 30 lines of grep-results-sort.txt
+```
+written_2//non-fiction/OUP/Berk/ch2.txt
+written_2//non-fiction/OUP/Berk/ch1.txt
+written_2//non-fiction/OUP/Berk/CH4.txt
+written_2//non-fiction/OUP/Berk/ch7.txt
+written_2//non-fiction/OUP/Abernathy/ch2.txt
+written_2//non-fiction/OUP/Abernathy/ch3.txt
+written_2//non-fiction/OUP/Abernathy/ch1.txt
+written_2//non-fiction/OUP/Abernathy/ch7.txt
+written_2//non-fiction/OUP/Abernathy/ch6.txt
+written_2//non-fiction/OUP/Abernathy/ch8.txt
+written_2//non-fiction/OUP/Abernathy/ch9.txt
+written_2//non-fiction/OUP/Abernathy/ch15.txt
+written_2//non-fiction/OUP/Abernathy/ch14.txt
+written_2//non-fiction/OUP/Rybczynski/ch2.txt
+written_2//non-fiction/OUP/Rybczynski/ch3.txt
+written_2//non-fiction/OUP/Rybczynski/ch1.txt
+written_2//non-fiction/OUP/Kauffman/ch3.txt
+written_2//non-fiction/OUP/Kauffman/ch1.txt
+written_2//non-fiction/OUP/Kauffman/ch4.txt
+written_2//non-fiction/OUP/Kauffman/ch5.txt
+written_2//non-fiction/OUP/Kauffman/ch7.txt
+written_2//non-fiction/OUP/Kauffman/ch6.txt
+written_2//non-fiction/OUP/Kauffman/ch8.txt
+written_2//non-fiction/OUP/Kauffman/ch9.txt
+written_2//non-fiction/OUP/Kauffman/ch10.txt
+written_2//non-fiction/OUP/Fletcher/ch2.txt
+written_2//non-fiction/OUP/Fletcher/ch1.txt
+written_2//non-fiction/OUP/Fletcher/ch5.txt
+written_2//non-fiction/OUP/Fletcher/ch6.txt
+written_2//non-fiction/OUP/Fletcher/ch9.txt
+```
 
-### Find -
-## Example 1
-## Example 2
+The find -s command lists all the files and directories inside written_2, but also traverses the file hierarchies in lexicographical order. We also use the grep ".txt" command to check if the text files will also be in alphabetical order.
+
+As we can see from both text files, they are both sorted in alphabetical order. The usefulness is shown in this example, as each file is sorted first by genre, then author, then by chapter.
+
+
+### Example 2
+
+## Find -
+### Example 1
+### Example 2
+
+## Find -
+### Example 1
+### Example 2
+
+## Find -
+### Example 1
+### Example 2
 
 This lab was to create a web server called StringServer that keeps track of strings added to the server.
 
