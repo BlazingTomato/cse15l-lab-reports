@@ -81,6 +81,11 @@ As we can see from both text files, they are both sorted in alphabetical order. 
 
 ### Example 2
 
+
+I found this option by using the command man find, which gave a description about the -s command.
+
+<img width="549" alt="image" src="https://user-images.githubusercontent.com/98483167/221757514-e8dab7b8-7fba-4401-b5f5-11a4ed4bfab0.png">
+
 ## Find -
 ### Example 1
 ### Example 2
