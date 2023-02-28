@@ -1,5 +1,23 @@
-# Lab Report 2 - Servers and Bugs (Week 3)
-### Part 1
+# Lab Report 3 - Researching Commands
+### find - s
+## Example 1
+```
+find -s written_2 > find_sort_results.txt
+grep ".txt" find_sort_results.txt > grep-results-sort.txt
+```
+## Example 2
+
+### Find -
+## Example 1
+## Example 2
+
+### Find -
+## Example 1
+## Example 2
+
+### Find -
+## Example 1
+## Example 2
 
 This lab was to create a web server called StringServer that keeps track of strings added to the server.
 
