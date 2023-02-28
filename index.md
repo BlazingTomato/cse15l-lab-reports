@@ -281,9 +281,9 @@ I found this command by using ChatGpt asking this following question.
 ChatGpt responded with the following
 > The find command in Bash is a very powerful tool that can help you search for files and directories in a given directory tree. Here are some cool things you can do with the find command:
 
-> 1 Find files based on their name: You can use the -name option to find files that match a specific pattern. For example, the command find . -name "*.txt" will find all files with the extension .txt in the current directory and its subdirectories.
+> Find files based on their name: You can use the -name option to find files that match a specific pattern. For example, the command find . -name "*.txt" will find all files with the extension .txt in the current directory and its subdirectories.
 
-> 2 Find files based on their size: You can use the -size option to find files that match a specific size. For example, the command find . -size +10M will find all files that are larger than 10 megabytes in the current directory and its subdirectories.
+> Find files based on their size: You can use the -size option to find files that match a specific size. For example, the command find . -size +10M will find all files that are larger than 10 megabytes in the current directory and its subdirectories.
 
 
 ## Find -type d
@@ -320,7 +320,7 @@ This can be useful when we want to specify the scope of the subdirectories that 
 
 I found this command by using ChatGpt following the same conversation of the previous command.
 
-> 3 Find files based on their type: You can use the -type option to find files of a specific type. For example, the command find . -type d will find all directories in the current directory and its subdirectories.
+> Find files based on their type: You can use the -type option to find files of a specific type. For example, the command find . -type d will find all directories in the current directory and its subdirectories.
 
 >how can I use -d to only find subdirectories of a specific depth?
 
