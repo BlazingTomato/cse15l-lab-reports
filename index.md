@@ -322,9 +322,11 @@ I found this command by using ChatGpt following the same conversation of the pre
 
 > Find files based on their type: You can use the -type option to find files of a specific type. For example, the command find . -type d will find all directories in the current directory and its subdirectories.
 
+I replied:
 >how can I use -d to only find subdirectories of a specific depth?
 
 
+ChatGpt Replied:
 > If you want to restrict the search to only the current directory and not its subdirectories, you can use the -maxdepth option as follows:
 
 > ``` find . -maxdepth 1 -type d ```
