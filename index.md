@@ -118,9 +118,9 @@ written_2/travel_guides/berlitz1/HistoryJapan.txt
 written_2/travel_guides/berlitz1/HistoryJerusalem.txt
 ```
 
-As we can see, the sort command works even when we specify a path. This can be useful when we simply want to sort a portion of our files without cluttering it with other unnessary files.
+As we can see, the sort command works even when we specify a path. This can be useful when we simply want to sort a portion of our files without cluttering it with other unnecessary files.
 
-I found this option by using the command man find, which gave a description about the -s command.
+I found this option by using the command 'man find', which gave a description about the -s command.
 
 <img width="549" alt="image" src="https://user-images.githubusercontent.com/98483167/221757514-e8dab7b8-7fba-4401-b5f5-11a4ed4bfab0.png">
 
@@ -186,9 +186,9 @@ written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt
 written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ```
 
-When we run the -d command with a specified path, it displays the files themselves but does not display the directory of certain files with the depth indicated by the command. This may be useful when address the question in week 4, in which we were asked to find how many text files there were. If all the txt files were in the same depth, then calling wc on the output file would provide the correct answer.
+When we run the -d command with a specified path, it displays the files themselves but does not display the directory of certain files with the depth indicated by the command. This may be useful when addressing the question in week 4, in which we were asked to find how many text files there were. If all the txt files were in the same depth, then calling wc on the output file would provide the correct answer.
 
-I found this option by using the command man find, which gave a description about the -d command.
+I found this option by using the command 'man find', which gave a description about the -d command.
 
 <img width="512" alt="image" src="https://user-images.githubusercontent.com/98483167/221761280-f230106d-96c2-4fbb-87f0-56e2823c44be.png">
 
@@ -232,7 +232,7 @@ written_2//travel_guides/berlitz1/HistoryEgypt.txt
 written_2//travel_guides/berlitz1/IntroEdinburgh.txt
 ```
 
-The find -size command used here lists all the files and directories smaller than 30KBs. As we can see, many files from non-fiction are missing due to being bigger than 30KBs. One instance in which this can be useful is when wanting to sort input files that are too big to be used in the program.
+The find -size command used here lists all the files and directories smaller than 30KBs. As we can see, many files from non-fiction are missing due to being bigger than 30KBs. One instance in which this can be useful is when wanting to sort input files that are too big to be used in a program.
 
 ### Example 2
 ```
