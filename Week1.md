@@ -1,63 +1,62 @@
-# Getting into your Remote Access account for CSE15L
-## Step 1: Installing VSCode
+# Lab Report 4
 
-If you're using the lab computers, VScode should already be installed. Simply press Windows key, then search for VSCode as shown below.
+## Step 4
+
+<img width="402" alt="image" src="https://user-images.githubusercontent.com/98483167/221781592-bfbaf887-46eb-4dfc-95d4-dc6121518f5a.png">
+
+Ssh, or Secure Shell, lets me log into my virtual machine in the ucsd servers.
+
+Keys pressed: `<up> <enter>`
+
+The `ssh cs15lwi23adz@ieng6.ucsd.edu` command was the only command in my local terminal history
+
+## Step 5
+
+<img width="403" alt="image" src="https://user-images.githubusercontent.com/98483167/221781974-3b391f1e-c272-498b-81cd-5bceb891e9ac.png">
+
+This command cloned to github repository into my server's directory. I cloned my lab7 repository from my github account.
+
+Keys pressed: `<Ctrl-r> <cl> <enter>`
+
+The `git clone https://github.com/BlazingTomato/lab7` command was found by going into my bash history and finding the clone command.
 
 
-![image](https://user-images.githubusercontent.com/98483167/211942449-47d23e42-a56f-4093-b9b1-491b378b21a4.png)
+## Step 6
 
+<img width="405" alt="image" src="https://user-images.githubusercontent.com/98483167/221783271-38bfb670-a0e9-45ce-838a-a9c16e332c02.png">
 
-If not, Vscode has a good tutorial on how to install and set up VSCode [Here](https://code.visualstudio.com/docs/setup/setup-overview). P.S. If you're looking for a cool dark color theme, I recommend [Palenight Theme](https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme).
+The first command compiles the JUnit file into a class file, and then the second command runs the JUnit tests in ListExamplesTests.
 
-## Step 2: Initiallizing you're Remote Account
-Once you're in VScode and you've had fun customizing it to you're liking, you need to download Git for Windows. Git and Bash should already be downloaded for your lab computers, but if you're on your personal device, or it doesn't work, Git has a nice [resource](https://gitforwindows.org/) to help you get up to speed.
+Keys pressed: `<Ctrl-r> <javac> <enter> <Ctrl-r> <J> <enter>`
 
-Once Git and Bash is set up, make sure to set up your Remote Account [here]("https://sdacs.ucsd.edu/~icc/index.php). If you haven't set a password for your remote account, you'll have to set a new password. Look up your account by inputing your last name and PID, and click on your CSE15L account. The website should lead you to the global password reset tool, and you can change it here. It took me a couple minutes for the password to change, so don't worry if it doesn't work the first time, and always make sure to ask a TA or someone if something seems off. 
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command and the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore` command were both accessed through the bash history.
 
-Now that you set a password for your CSE15L Remote account, open terminal in either VSCode, or your windows computer by searching cmd (or for mac: press space Cmd + Space and search terminal). 
+## Step 7
 
-Since you have Git and Bash already initallized, you can use the command ssh, which stands for secure shell. Type the command below, and replace [Account Name] with your CSE15L account name (should look like this: cs15lwi23zz).
+<img width="403" alt="image" src="https://user-images.githubusercontent.com/98483167/221783419-b92ddd9a-79d3-47e4-b65e-e5e5d3a2583d.png">
 
-```ssh [Account Name]@ieng6.ucsd.edu```
+`vi ListExamples.java` works similar to the `nano` command in that it opens an editor in the terminal.  After that, pressing `<i>` enables me to edit the file. After changing the code, `<esc>` opens the menu and `<ZZ>` saves and exits the editor.
 
-Now it will ask you 
+Keys pressed: `<Ctrl-r> <vi> <enter> <i> (changed code) <esc> <ZZ>`
 
-```
-ssh cs15lwi23zz@ieng6.ucsd.edu
-The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
-RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? 
-```
+The code was edited by using the vi editor in my terminal. The initial command of `vi ListExamples.java` was found through the bash history.
 
-Type yes and press enter, then type your password.
+## Step 8
+<img width="404" alt="image" src="https://user-images.githubusercontent.com/98483167/221783558-cdcf5284-a1f0-49ee-aca9-9b7725abd7fd.png">
 
-If nothing happens when you correctly type your password, use ctrl + c to get out of the command, and retry it. 
+The commands used are the same as Step 6, and simply recompiles and runs the JUnit tests in ListExamplesTests.
 
-Once it says
-```
-Hello [Your account name], you are currently logged into ieng6-203.ucsd.edu
-```
+Keys pressed: `<up> <up> <enter> <up> <up> <up> <enter>`
 
-you're good to go.
+Because the javac and java commands were recently used, the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 2 up in the search history, so I used up arrow to access it. Then the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore` command was 3 up in the history, so I accessed it in the same way.
 
-Overall, my experience went like this
+## Step 9
 
-![image](https://user-images.githubusercontent.com/98483167/211944707-463eb42a-7190-418b-abbd-3ddf36ad4d20.png)
+<img width="401" alt="image" src="https://user-images.githubusercontent.com/98483167/221783689-84f5959c-4503-496d-964a-3538541c8f1d.png">
 
-## Step 3: Trying some Commands
-Now that you're in your Remote Accounts, you can use some commands to snoop around your directory.
+`git add .` stages new files and modifications, without deletions, and `git commit -am "done"` commits with the changes staged in git add. The `-a` automatically stages any changed files, and the `-m` adds a commit message, which in this instance is "done".
 
-What I did was use the command
-```
-cd ~
-ls
-```
-to first change my directory (cd) to the home folder (~), than list (ls) the files in that directory.
+Keys pressed: `<Ctrl-r> <ad> <enter> <Ctrl-r> <co> <enter>`
 
-This is what mine looked like
+The `git add .` and `git commit -am "done"` commands were accessed through my git history.
 
-![image](https://user-images.githubusercontent.com/98483167/211945294-c7590ef8-51b7-4376-9067-1a0225d7762a.png)
-
-If you're not sure what commands to use, [Here](https://www.lifewire.com/change-directories-in-command-prompt-5185508) is a basic guide on moving around directories for Window's Command Prompt.
-
-That should be all you need to get started on your remote account. And always ask someone for help if something goes wrong, rather than wasting time doing it by yourself ;).
