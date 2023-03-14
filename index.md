@@ -35,7 +35,7 @@ The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command 
 
 <img width="403" alt="image" src="https://user-images.githubusercontent.com/98483167/221783419-b92ddd9a-79d3-47e4-b65e-e5e5d3a2583d.png">
 
-`vi ListExamples.java` works similar to the `nano` command in that it opens an editor in the terminal.  After that, pressing 'i' enables me to edit the file. After changing the code, 'esc' opens the menu and 'ZZ' saves and exits the editor.
+`vi ListExamples.java` works similar to the `nano` command in that it opens an editor in the terminal.  After that, pressing `<i>` enables me to edit the file. After changing the code, `<esc>` opens the menu and `<ZZ>` saves and exits the editor.
 
 Keys pressed: `<Ctrl-r> <vi> <enter> <i> (changed code) <esc> <ZZ>`
 
@@ -54,7 +54,7 @@ Because the javac and java commands were recently used, the `javac -cp .:lib/ham
 
 <img width="401" alt="image" src="https://user-images.githubusercontent.com/98483167/221783689-84f5959c-4503-496d-964a-3538541c8f1d.png">
 
-`git add .` stages new files and modifications, without deletions, and `git commit -am "done"` commits with the changes staged in git add. The '-a' simply automatically stages any changed files, and the 'm' adds a commit message, which in this instance is "done".
+`git add .` stages new files and modifications, without deletions, and `git commit -am "done"` commits with the changes staged in git add. The `-a` automatically stages any changed files, and the `-m` adds a commit message, which in this instance is "done".
 
 Keys pressed: `<Ctrl-r> <ad> <enter> <Ctrl-r> <co> <enter>`
 
