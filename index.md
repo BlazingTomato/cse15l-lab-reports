@@ -22,7 +22,7 @@ java -cp $CPATH org.junit.runner.JUnitCore ListExamplesTests > junit-output.txt`
 
 ## Step 3
 
-To fix the ListExamples.java so the tests can succeed:
+Fix the ListExamples.java so the tests can succeed:
 
 echo the entire edited file in the bash script and redirect the output into ListExamples.java
 
@@ -34,6 +34,7 @@ Copy and paste the commands in Step 2 to recompile the JUnit Tests to show that 
 ## Step 5
 
 Put 
+
 `git add .
 git commit -am "done"`
 
